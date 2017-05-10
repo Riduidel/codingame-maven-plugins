@@ -4,19 +4,20 @@ Pour l'instant, il n'y a que `codingame-simpleclass-maven-plugin` qui est déja 
 
 === Utilisation
 Ajouter dans le pom 
-<build>
-    <plugins>
-      <plugin>
-        <groupId>org.ndx.codingame</groupId>
-        <artifactId>codingame-simpleclass-maven-plugin</artifactId>
-        <version>${project.version}</version>
-        <executions>
-          <execution>
-            <goals>
-              <goal>assemble</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>codingame-simpleclass-maven-plugin</artifactId>
+				<version>${project.version}</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>assemble</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
