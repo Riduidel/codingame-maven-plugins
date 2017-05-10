@@ -8,7 +8,7 @@ Ajouter dans le pom
     <plugins>
       <plugin>
         <groupId>org.ndx.codingame</groupId>
-        <artifactId>codingame-maven-plugin</artifactId>
+        <artifactId>codingame-simpleclass-maven-plugin</artifactId>
         <version>${project.version}</version>
         <executions>
           <execution>
