@@ -21,7 +21,16 @@
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<github-user>Riduidel</github-user>
+		<github-repo>codingame-maven-plugins</github-repo>
 	</properties>
+
+	<scm>
+		<connection>scm:git:https://github.com/${github-user}/${github-repo}.git</connection>
+		<developerConnection>scm:git:git@github.com:${github-user}/${github-repo}.git</developerConnection>
+		<url>https://github.com/${github-user}/${github-repo}</url>
+		<tag>HEAD</tag>
+	</scm>
 
 	<dependencyManagement>
 		<dependencies>
