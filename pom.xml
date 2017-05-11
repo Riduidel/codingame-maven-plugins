@@ -16,6 +16,17 @@
 	<artifactId>codingame-maven-plugins</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	<name>Codingame maven plugins</name>
+	<description>A set of plugins allowing easier work with Codingame for Java developers</description>
+	<url>https://github.com/Riduidel/codingame-maven-plugins.git</url>
+
+	<licenses>
+		<license>
+			<name>GNU Library or Lesser General Public License (LGPL)</name>
+			<url>http://www.gnu.org/licenses/lgpl.html</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -31,7 +42,17 @@
 		<url>https://github.com/${github-user}/${github-repo}</url>
 		<tag>HEAD</tag>
 	</scm>
-
+	<developers>
+		<developer>
+			<id>riduidel</id>
+			<name>Nicolas Delsaux</name>
+			<email>riduidel@dooapp.com</email>
+			<roles>
+				<role>lead developer</role>
+			</roles>
+		</developer>
+	</developers>
+	
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
