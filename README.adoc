@@ -1,6 +1,12 @@
+
 Ce projet fournit un ensemble de plugin mavens pour simplifier le développement sur la plateforme Codingame.
 Pour l'instant, il n'y a que `codingame-simpleclass-maven-plugin` qui est déja très utile.
 
+= Projet déplacé sur framagit.org
+
+Vous trouverez les versions les plus récentes de ce projet à l'adresse https://framagit.org/Riduidel/codingame-maven-plugins
+
+Pourquoi ? Parce que framasoft, c'est mieux que github.com pour de l'open-source
 
 === Utilisation
 Ajouter dans le pom 
